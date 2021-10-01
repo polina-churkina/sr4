@@ -1,3 +1,6 @@
-Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
+n_ages = int(input('Введите кол-во лет: '))
+n_exhibits = ((n_ages*365)*8*60)/5
+print('За',n_ages,'год/года/лет одним человеком будет просмотрено',n_exhibits,'экспонатов')
+n_exhibits = int(input('Введите кол-во экспонатов в промежутке от 0 до 2.8 млн: '))
+n_ages = (n_exhibits*5)/(60*8*365)
+print('На просмотра',n_exhibits,'экспонатов(а) будет затрачено',n_ages,'лет/года/год')
